@@ -1,4 +1,4 @@
-class BrewExplorer < Formula
+class CloudflareSpeedCli < Formula
   desc "CLI for internet speed test via cloudflare"
   homepage "https://github.com/kavehtehrani/cloudflare-speed-cli"
   version "0.5.0"
