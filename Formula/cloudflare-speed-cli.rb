@@ -5,11 +5,11 @@ class CloudflareSpeedCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/download/v#{version}/cloudflare-speed-cli-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/download/v#{version}/cloudflare-speed-cli-aarch64-apple-darwin.tar.xz"
       sha256 "e9795e7715820c817511f5e5b4fe6ca3448281a298d065053a3073212f9d9bfe"
     end
     on_intel do
-      url "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/download/v#{version}/cloudflare-speed-cli-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/download/v#{version}/cloudflare-speed-cli-x86_64-apple-darwin.tar.xz"
       sha256 "3d8cba59df6a057c02ea4b9b5d7ad23515159120e53c6fe0923aedfd493112db"
     end
   end
